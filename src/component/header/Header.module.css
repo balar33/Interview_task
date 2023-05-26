@@ -1,0 +1,14 @@
+.pageHeader {
+    padding: 30px 40px 18px 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.brandLogo {
+    width: 100px;
+    display: block;
+}
+.brandLogo img {
+    width: 100%;
+    height: auto;
+}

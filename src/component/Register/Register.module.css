@@ -1,0 +1,112 @@
+.mainGrid {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    padding: 80px 0;
+}
+.loginContainer {
+    max-width: 540px;
+    margin: 0 auto;
+    width: 100%;
+}
+.loginContainer .loginCard {
+    padding: 50px 44px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+.loginContainer .loginCardInner {
+    padding: 0;
+}
+.loginContainer .welcomeText {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.loginContainer .formTitle {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+    margin: 0 0 32px;
+}
+.loginContainer .noAccount {
+    width: auto;
+}
+.noAccountWrapper {
+    justify-content: flex-end;
+    display: flex;
+}
+.loginContainer .noAccount {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8D8D;
+}
+.signUp {
+    color: #B87514;
+    text-decoration: none;
+}
+.signUp:hover {
+    text-decoration: underline;
+}
+.fieldLabel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 13px;
+}
+.loginContainer .textFieldWrapper {
+    margin: 0 0 36px;
+}
+ 
+.textField :global(.MuiInputBase-formControl) {
+   border-radius: 9px;
+}
+.textField :global(.MuiInputBase-formControl fieldset) {
+    border-color: #4285F4;
+}
+.loginContainer .signBtnWrapper {
+    margin-Top: 50px;
+ }
+.loginContainer .signBtn {
+    background: #E48700;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    height: 54px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.loginFooter {
+    display: flex;
+    align-items: center;
+}
+.required {
+    color: red !important
+}
+
+@media(max-width: 767px) {
+    .mainGrid {
+        background: #ECBC76;
+        padding: 78px 26px 0;
+    }
+    .loginContainer .loginCard {
+        padding: 27px;
+    }
+    .loginContainer .formTitle {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
